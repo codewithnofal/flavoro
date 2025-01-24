@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from './Pages/Home'
-import Success from './pages/Success'
+
+import Success from './Pages/Success'
 import DataContext from './components/DataContext'
-import FoodData from './FoodData'
 import ProtectedRoute from './components/ProtectedRoute'
+import Home from './Pages/Home'
 
 const App = () => {
   const [active,setActive] = useState(false)
